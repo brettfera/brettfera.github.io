@@ -1,10 +1,29 @@
 h1 { color: red;
 }
 
-.biobox{
+.biobox {
   border-width: 2px;
   border-style: solid;
   border-color: black;
   width: 320px;
   padding: 10px 10px 10px 10px;
 }
+
+.newstitle {
+  background-color: #C9EBFF;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+.newssite {
+  background-color: #FFE7BD;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+p.clear {
+  clear: left;
+  }
