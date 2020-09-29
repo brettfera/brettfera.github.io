@@ -26,9 +26,11 @@ h1 { color: red;
   float: left;
 }
 
-p.clear {
+.clear {
   clear: left;
   }
+
+
 
 
 
@@ -70,7 +72,10 @@ p.clear {
     padding: 20px 20px 20px 20px;
   }
 
- 
+
+
+
+
 
   #greeting {
     font-size: 2em;
@@ -80,3 +85,23 @@ p.clear {
     font-size: 2em;
     margin: 1em;
   }
+
+
+
+
+
+
+#rss_items {
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+
+.rss_title {
+  font-size: 1.2em;
+}
+
+.rss_description {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
