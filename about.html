@@ -13,20 +13,20 @@
             var hour = date.getHours();
             var description = "";
             if (hour < 12) {
-              description = "morning";
+              description = "morning!";
             } else if (hour < 17) {
-              description = "afternoon";
+              description = "afternoon!";
             } else {
-              description = "evening";
+              description = "evening!";
             }
             document.getElementById("greeting").innerHTML = "Good " + description;
           }
           // get weather data from openweathermap and display the current temp
           function fetchWeather() {
-            fetch("https://api.openweathermap.org/data/2.5/weather?zip=ZIPCODEHERE,US&appid=fa4e183ab0f9b88719c98b921fcb8e64&units=imperial")
+            fetch("https://api.openweathermap.org/data/2.5/weather?zip=85716,US&appid=fa4e183ab0f9b88719c98b921fcb8e64&units=imperial")
             .then(function(resp) { return resp.json() })
             .then(function(data) {
-              document.getElementById("weather").innerHTML = data.main.temp;
+              document.getElementById("weather").innerHTML = "It is currently " + data.main.temp + "&#176;" + " in Tucson, AZ.";
             })
             .catch(function() {
               document.getElementById("weather").innerHTML = "Error in fetchWeather function";
@@ -39,7 +39,10 @@
   </head>
   <body>
     <center>
-
+    <div id="greeting"></div>
+    <div id="weather"></div>
+    </center>
+    <center>
       <div class="name_container">
         Brett Fera
       </div>
