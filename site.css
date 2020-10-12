@@ -91,47 +91,51 @@ h1 { color: red;
 
 
 
-#rss_items {
-  border: 1px solid black;
-  padding: 5px 5px 5px 5px;
-  margin: 5px 5px 5px 5px;
-}
+  #rss_items {
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+  }
 
-.rss_title {
-  font-size: 1.2em;
-}
+  .rss_title {
+    font-size: 1.2em;
+  }
 
-.rss_description {
-  padding-top: 5px;
-  padding-bottom: 20px;
-}
+  .rss_description {
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
 
 
 
-#sheet {
-  border 1px solid black;
-  padding: 5px 5px 5px 5px;
-  margin: 5px 5px 5px 5px;
-}
+  #sheet {
+    border 1px solid black;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+  }
 
-.cell {
-  border: 1px solid black;
-  padding: 5px 5px 5px 5px;
-  margin: 10px 10px 10px 10px;
-}
+  .cell {
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+  }
 
-.cell_name {
-  font-weight: bold;
-}
+  .cell_name {
+    font-weight: bold;
+  }
 
-.cell_address {
+  .cell_address {
 
-}
+  }
 
-.cell_url {
+  .cell_url {
 
-}
+  }
 
-.cell_phone {
+  .cell_phone {
 
-}
+  }
+
+  #mapid {
+    height: 640px;
+  }
