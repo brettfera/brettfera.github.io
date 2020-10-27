@@ -1,0 +1,59 @@
+Skip to content
+
+Search…
+All gists
+Back to GitHub
+Sign in
+Sign up
+Instantly share code, notes, and snippets.
+
+@rwisner
+rwisner/briefs.xml
+Created 7 days ago
+0
+0
+ Code
+ Revisions 1
+<script src="https://gist.github.com/rwisner/0a66c0ae00828077c5debf9304810aa7.js"></script>
+Sample XML file for Alexa Flash Briefs
+briefs.xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Brett's Briefs</title>
+  <link>https://brettfera.github.io/about.html</link>
+  <description>Mission For College Media</description>
+
+  <item>
+    <pubDate>Mon, 26 Oct 2020 16:00:00 -0700</pubDate>
+    <title>GAMECOCKPAUSE</title>
+    <link>https://brettfera.github.io/about.html</link>
+    <description>The Daily Gamecock at the University of South Carolina goes on pause</description>
+    <enclosure url="https://brettfera.github.io/briefs/GAMECOCKPAUSE.mp3" type="audio/mpeg" length="1134535"></enclosure>
+    <guid isPermaLink="false">https://brettfera.github.io/briefs/GAMECOCKPAUSE.mp3</guid>
+  </item>
+
+  <item>
+    <pubDate>Mon, 26 Oct 2020 16:30:00 -0700</pubDate>
+    <title>PANDEMICSTUDY</title>
+    <link>https://brettfera.github.io/about.html</link>
+    <description>University of Florida awarded grant to study college newsrooms amid the pandemic</description>
+    <enclosure url="https://brettfera.github.io/briefs/PANDEMICSTUDY.mp3" type="audio/mpeg" length="1050631"></enclosure>
+    <guid isPermaLink="false">https://brettfera.github.io/briefs/PANDEMICSTUDY.mp3</guid>
+  </item>
+
+</channel>
+</rss>
+ to join this conversation on GitHub. Already have an account? Sign in to comment
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
