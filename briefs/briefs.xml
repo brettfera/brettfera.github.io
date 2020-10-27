@@ -1,22 +1,3 @@
-Skip to content
-
-Search…
-All gists
-Back to GitHub
-Sign in
-Sign up
-Instantly share code, notes, and snippets.
-
-@rwisner
-rwisner/briefs.xml
-Created 7 days ago
-0
-0
- Code
- Revisions 1
-<script src="https://gist.github.com/rwisner/0a66c0ae00828077c5debf9304810aa7.js"></script>
-Sample XML file for Alexa Flash Briefs
-briefs.xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
